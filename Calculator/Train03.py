@@ -10,12 +10,12 @@ print(ops)
 
 inpOp = int(input('Enter Operator: '))
 
-isWantedAnyNum = True
+isAnotherNumberNeeded = True
 
 if inpOp >= 1 and inpOp <= 3:
-    isWantedAnyNum = False
+    isAnotherNumberNeeded = False
 
-if isWantedAnyNum == False:
+if isAnotherNumberNeeded == False:
     if inpOp == 1:
         print(math.log(num1))
     elif inpOp == 2:
